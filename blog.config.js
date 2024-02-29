@@ -397,6 +397,7 @@ const BLOG = {
     tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签', // tags  标签
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || '头像' // icon 头像
   },
+  
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || false, // 是否开启RSS订阅功能
