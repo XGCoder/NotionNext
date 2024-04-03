@@ -19,7 +19,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '赵小嘎的交易与积累', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '金融投资心得和日常技术积累', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://notion.zxn.wiki', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.zxn.wiki', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, iOS, 交易笔记, 笔记, 个人博客, 金融投资, 行情分析, 数字货币, 行情, 比特币, 大饼, 以太', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
