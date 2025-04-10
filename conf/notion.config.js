@@ -24,7 +24,7 @@ module.exports = {
     slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || '路径',
     category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || '分类',
     date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || '时间',
-    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签',
+    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || '头像',
     ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || 'ext' // 扩展字段，存放json-string，用于复杂业务
   },
